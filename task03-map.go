@@ -2,7 +2,7 @@ package homework
 
 import "sort"
 
-func SortMapValues(input map[int]string) (result []string) {
+func sortMapValues(input map[int]string) (result []string) {
 	indices := []int{}
 	for key := range input {
 		indices = append(indices, key)
